@@ -1,0 +1,91 @@
+/* Nav bar section */
+
+.head {
+  border-bottom: 1px rgb(93, 182, 241) solid;
+  display: flex;
+  height: 60px;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+  background-color: rgba(255, 255, 255, 0.904);
+  top: 0px;
+}
+
+.head__logoContainer {
+  position: relative;
+  right: 5%;
+  font-size: 1.7rem;
+  font-family: "Indie Flower", cursive;
+}
+
+.head__navBar {
+  width: 40%;
+  font-family: "Noto Sans", sans-serif;
+  font-size: 1.7rem;
+}
+
+.head__navBar--ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.head__navBar--ul a li {
+  list-style: none;
+  margin-bottom: -20px;
+  margin-left: 10px;
+  color: rgb(93, 182, 241);
+}
+
+.head__navBar--ul a i {
+  color: rgb(93, 182, 241);
+}
+
+.head__navBar--ul a {
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration: none;
+  color: black;
+  padding: 1rem;
+}
+
+.head__navBar--ul a:hover {
+  background-color: rgba(93, 182, 241, 0.3);
+  border-radius: 20px;
+  transition: 0.5s;
+}
+
+/* Media queries*/
+
+@media only screen and (max-width: 1200px) {
+  .head__navBar {
+    width: 60%;
+  }
+
+  .head__logoContainer {
+    width: 50%;
+    left: 20px;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .head__logoContainer {
+    position: relative;
+    right: 5%;
+    font-size: 1.2rem;
+    text-align: center;
+    font-family: "Indie Flower", cursive;
+    left: 20px;
+    font-size: 0.8rem;
+    width: 30%;
+  }
+
+  .head__navBar {
+    width: 60%;
+  }
+
+  .head__navBar li {
+    display: none;
+  }
+}

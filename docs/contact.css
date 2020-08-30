@@ -1,0 +1,136 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+/* main */
+.contacto {
+  margin-top: 100px;
+}
+.contacto__text {
+  margin: 0 auto;
+  max-width: 90%;
+  text-align: justify;
+}
+
+.contacto__text,
+.contacto__iconContac {
+  font-size: 2rem;
+}
+
+.contacto_h1 {
+  margin: 0 auto;
+  max-width: 90%;
+  text-align: justify;
+}
+
+.contacto__flex {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.container-icon {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  font-size: 3rem;
+  color: rgb(93, 182, 241);
+  height: 250px;
+  padding: 100px;
+  width: 250px;
+
+  border-radius: 20px;
+  margin: 10px;
+  box-shadow: 5px 5px 5px 5px rgba(216, 213, 213, 0.75);
+}
+
+.container-icon a {
+  color: rgb(93, 182, 241);
+  padding: 20px;
+}
+
+.insta {
+  color: rgba(228, 64, 95, 1);
+}
+
+.insta:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgba(228, 64, 95, 1);
+  border-radius: 100px;
+  padding: 20px;
+  transition: 0.8s;
+}
+
+.twitter {
+  color: rgb(83, 167, 247);
+}
+
+.twitter:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(83, 167, 247);
+  border-radius: 100px;
+  padding: 20px;
+  transition: 0.8s;
+}
+
+.face {
+  color: rgb(16, 114, 243);
+}
+
+.face:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(16, 114, 243);
+  border-radius: 100px;
+  padding: 20px;
+  transition: 0.8s;
+}
+
+/* Media queries*/
+
+@media only screen and (max-width: 1300px) {
+  .mainn__container--firstSection--text h1 {
+    text-align: left;
+  }
+  .mainn__container--firstSection--text {
+    max-width: 40%;
+  }
+}
+
+@media only screen and (max-width: 414px) {
+  .link {
+    position: relative;
+    left: 1px;
+  }
+
+  .contacto {
+    text-align: center;
+  }
+
+  .contacto_h1 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .contacto_h1 {
+    text-align: center;
+  }
+}
+
+@keyframes example {
+  from {
+    background-color: red;
+  }
+  to {
+    background-color: yellow;
+  }
+}
