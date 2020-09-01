@@ -93,7 +93,7 @@ a {
   justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
 }
 
 .mainn__container--thirdSection--text {
@@ -130,7 +130,7 @@ a {
   align-items: center;
   flex-wrap: wrap;
   padding-bottom: 60px;
-  padding-top: 70px;
+  padding-top: 30px;
   border-top: 1px solid rgb(93, 182, 241);
 }
 
@@ -197,6 +197,7 @@ a {
     width: 90%;
     position: relative;
     left: 5%;
+    
   }
 }
 
@@ -225,19 +226,20 @@ a {
   .mainn__container--secondSection--text p,
   .mainn__container--thirdSection--text p,
   .mainn__container--fourthSection--text p {
-    text-align: justify;
+    text-align: center;
   }
 
   .mainn__container--secondSection--text,
   .mainn__container--thirdSection--text {
-    text-align: justify;
+    text-align: center;
     max-width: 90%;
     font-size: 1rem;
   }
 
   .map {
     margin-top: 30px;
-    width: 400px;
+    width: auto;
+    height: auto;
   }
 
   .moneda {
@@ -245,11 +247,24 @@ a {
     width: 400px;
   }
 }
+@media only screen and (max-width: 500px) {
+
+
+  .inp{
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  .mainn__container--firstSection--text em{
+    line-height: 1rem;
+  }
+
+  
+
+}
 
 @media only screen and (max-width: 414px) {
-  .map {
-    width: 300px;
-  }
+ 
   .moneda {
     width: 300px;
   }
@@ -258,6 +273,8 @@ a {
     left: 0;
   }
 
+  
+  
   .mainn__container--thirdSection--text {
     text-align: center;
   }
