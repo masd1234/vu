@@ -1,15 +1,4 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-html {
-  font-size: 10px;
-  font-family: "Noto Sans", sans-serif;
-}
-
-/* main */
 .contacto {
   margin-top: 100px;
 }
@@ -96,14 +85,7 @@ html {
 
 /* Media queries*/
 
-@media only screen and (max-width: 1300px) {
-  .mainn__container--firstSection--text h1 {
-    text-align: left;
-  }
-  .mainn__container--firstSection--text {
-    max-width: 40%;
-  }
-}
+
 
 @media only screen and (max-width: 414px) {
   .link {
