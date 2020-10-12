@@ -25,6 +25,7 @@
 .footer__icon--ul a,
 .footer__icon--ul i {
   color: white;
+  text-decoration: none;
 }
 
 .footer__icon--ul i {

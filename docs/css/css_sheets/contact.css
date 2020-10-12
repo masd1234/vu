@@ -1,115 +1,97 @@
-.contacto {
-  margin-top: 100px;
-}
-.contacto__text {
-  margin: 0 auto;
-  max-width: 90%;
-  text-align: justify;
-}
 
-.contacto__text,
-.contacto__iconContac {
-  font-size: 2rem;
-}
-
-.contacto_h1 {
-  margin: 0 auto;
-  max-width: 90%;
-  text-align: justify;
-}
-
-.contacto__flex {
-  margin-top: 50px;
+.container__contact {
+  margin: 200px 0 110px 0 ;
+  position: relative;
+  height: auto;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.container__links {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-}
-
-.container-icon {
-  display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  font-size: 3rem;
-  color: rgb(93, 182, 241);
-  height: 250px;
-  padding: 100px;
-  width: 250px;
-
-  border-radius: 20px;
-  margin: 10px;
-  box-shadow: 5px 5px 5px 5px rgba(216, 213, 213, 0.75);
+  width: 100%;
 }
 
-.container-icon a {
-  color: rgb(93, 182, 241);
-  padding: 20px;
+.container__links a {
+  display: flex;
+  padding: 5rem;
+  font-size: 3rem;
+  width: 300px;
+  text-decoration: none;
+  border: 0.5px solid rgb(212, 199, 199);
+  align-items: center;
+  border-radius: 3rem;
+  margin: 1rem 0;
+}
+
+.container__links a i{
+text-align: center;
+margin: 0 auto;
+
+
+}
+
+.contacto__text {
+  padding: 0 3rem;
+  font-size: 2rem;
+  width: 90%;
+  text-align: justify;
+  margin: 0 auto;
 }
 
 .insta {
   color: rgba(228, 64, 95, 1);
+  border-radius: 100px;
 }
 
 .insta:hover {
   color: rgb(255, 255, 255);
   background-color: rgba(228, 64, 95, 1);
-  border-radius: 100px;
-  padding: 20px;
   transition: 0.8s;
 }
 
 .twitter {
   color: rgb(83, 167, 247);
+  border-radius: 100px;
 }
 
 .twitter:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(83, 167, 247);
-  border-radius: 100px;
-  padding: 20px;
   transition: 0.8s;
 }
 
 .face {
   color: rgb(16, 114, 243);
+  border-radius: 100px;
 }
 
 .face:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(16, 114, 243);
-  border-radius: 100px;
-  padding: 20px;
   transition: 0.8s;
 }
 
-/* Media queries*/
 
-@media only screen and (max-width: 414px) {
-  .link {
-    position: relative;
-    left: 1px;
+
+@media only screen and (max-width: 321px) {
+  .container__links a {
+  
+    width: 200px;
+    padding:30px;
+    
+  
   }
 
-  .contacto {
-    text-align: center;
+  .contacto__text {
+    font-size: 1.5rem;
+    width: 100%;
   }
-
-  .contacto_h1 {
-    text-align: center;
-  }
-}
-
-@media only screen and (max-width: 360px) {
-  .contacto_h1 {
-    text-align: center;
-  }
-}
-
-@keyframes example {
-  from {
-    background-color: red;
-  }
-  to {
-    background-color: yellow;
-  }
+  
 }
