@@ -1,104 +1,93 @@
+.container_all {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+}
 
 .container__contact {
- 
   display: flex;
+  text-align: center;
+  justify-content: space-around;
   align-items: center;
+  height: 200px;
+  font-size: 1.2rem;
   flex-direction: column;
-  justify-content: center;
+  width: 100%;
+}
+
+.container__contact h1 {
+  font-size: 2rem;
 }
 
 .container__links {
-  margin-top: 20px;
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
   align-items: center;
+  flex-wrap: wrap;
   width: 100%;
 }
 
 .container__links a {
-  display: flex;
-  padding: 5rem;
-  font-size: 3rem;
+  margin: 8px;
+  border-radius: 2rem;
   width: 300px;
+  padding: 3rem;
+}
+
+.container__links a i {
   text-decoration: none;
-  border: 0.5px solid rgb(212, 199, 199);
-  align-items: center;
-  border-radius: 3rem;
-  margin: 1rem 0;
+  font-size: 2.5rem;
 }
-
-.container__links a i{
-text-align: center;
-margin: 0 auto;
-
-
-}
-
-.container__contact,
 .contacto__text {
-  height: 100vh;
-
-}
-
-.contacto__text {
-  padding: 0 3rem;
-  font-size: 2rem;
-  width: 90%;
-  height: auto;
   text-align: justify;
-  margin: 0 auto;
+  width: 90%;
+  font-size: 1.5rem;
 }
 
 .insta {
   color: rgba(228, 64, 95, 1);
-  border-radius: 100px;
 }
 
 .insta:hover {
   color: rgb(255, 255, 255);
   background-color: rgba(228, 64, 95, 1);
+  border-radius: 100px;
+  padding: 20px;
   transition: 0.8s;
 }
 
 .twitter {
   color: rgb(83, 167, 247);
-  border-radius: 100px;
 }
 
 .twitter:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(83, 167, 247);
+  border-radius: 100px;
+  padding: 20px;
   transition: 0.8s;
 }
 
 .face {
   color: rgb(16, 114, 243);
-  border-radius: 100px;
 }
 
 .face:hover {
   color: rgb(255, 255, 255);
   background-color: rgb(16, 114, 243);
+  border-radius: 100px;
+  padding: 20px;
   transition: 0.8s;
 }
 
-
-
-@media only screen and (max-width: 360px) {
-  .container__links a {
-  
-    width: 200px;
-    padding:30px;
-    
-    
-  
+@media only screen and (max-width: 323px) {
+  .container__contact {
+    margin-top: 80px;
   }
-
   .contacto__text {
-    font-size: 1.5rem;
-    width: 100%;
-    padding: 2rem;
+    margin-top: 40px;
   }
-  
 }
