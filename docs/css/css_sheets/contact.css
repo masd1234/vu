@@ -1,10 +1,6 @@
-body{
-  height: 100vh;
-}
+
 .container__contact {
-  margin: 200px 0 0 0 ;
-  position: relative;
-  height: 100%;
+ 
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -36,6 +32,12 @@ body{
 text-align: center;
 margin: 0 auto;
 
+
+}
+
+.container__contact,
+.contacto__text {
+  height: 100vh;
 
 }
 
