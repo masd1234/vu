@@ -1,4 +1,3 @@
-
 .section1 {
   margin: 0 auto;
   font-size: 1.7rem;
@@ -14,16 +13,14 @@
 }
 
 .list {
-  
   margin-left: 50px;
 }
 
-.imgList{
+.imgList {
   margin-top: 3 rem;
 }
 
 .imgList1 {
-  
   height: 20%;
   width: 90%;
   margin: 0 auto;
@@ -49,7 +46,6 @@
     width: 100%;
     height: auto;
     margin: 0;
-   
   }
 
   .imgFecha {
@@ -59,12 +55,9 @@
     left: 0%;
     right: 5%;
   }
-
 }
 
 @media only screen and (max-width: 414px) {
-
-
   main {
     text-align: justify;
   }
