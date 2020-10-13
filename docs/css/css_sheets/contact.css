@@ -19,7 +19,7 @@
 }
 
 .container__contact h1 {
-  font-size: 2rem;
+  font-size: 4rem;
 }
 
 .container__links {
@@ -39,12 +39,12 @@
 
 .container__links a i {
   text-decoration: none;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 .contacto__text {
   text-align: justify;
   width: 90%;
-  font-size: 1.5rem;
+  font-size: 2.4rem;
 }
 
 .insta {
@@ -83,11 +83,20 @@
   transition: 0.8s;
 }
 
-@media only screen and (max-width: 323px) {
+@media only screen and (max-width: 650px) {
   .container__contact {
     margin-top: 80px;
   }
+  .container__contact h1 {
+    font-size: 2rem;
+  }
+
+  .container__links a i {
+    text-decoration: none;
+    font-size: 2rem;
+  }
   .contacto__text {
     margin-top: 40px;
+    font-size: 1.5rem;
   }
 }

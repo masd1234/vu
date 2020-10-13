@@ -20,6 +20,12 @@
 
 .footer__icon--ul li {
   border-radius: 2rem;
+  padding: 0.7rem;
+}
+
+.footer__icon--ul li:hover {
+  background-color: royalblue;
+  transition: 1s;
 }
 
 .footer__icon--ul a,

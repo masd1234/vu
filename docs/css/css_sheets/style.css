@@ -34,7 +34,7 @@ html {
 .mainn__container--firstSection--text,
 .mainn__container--secondSection--text,
 .mainn__container--thirdSection--text {
-  width: 60%;
+  width: 70%;
   text-align: justify;
 }
 
@@ -43,7 +43,7 @@ html {
 }
 
 .image {
-  width: 350px;
+  width: 400px;
   height: 300px;
   object-fit: cover;
   border-radius: 2rem;
@@ -67,22 +67,37 @@ html {
     margin-bottom: 1rem;
   }
 
-  .image {
+  .container__inp,
+  .container__map,
+  .container__moeda{
     width: auto;
+    
+  }
+  .image {
     margin-top: 1rem;
+    object-fit: cover;
   }
 }
 
 @media only screen and (max-width: 562px) {
   .image {
     width: auto;
-    height: 200px;
+    height: 220px;
   }
 }
+
+@media only screen and (max-width: 361px) {
+  .image {
+    width: auto;
+    height: 190px;
+  }
+}
+
+
 
 @media only screen and (max-width: 320px) {
   .image {
     width: auto;
-    height: 150px;
+    height: 140px;
   }
 }
