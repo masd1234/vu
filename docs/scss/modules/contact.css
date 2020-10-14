@@ -1,0 +1,129 @@
+.container_all {
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.container__contact {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 200px;
+  font-size: 1.2rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+}
+
+.container__contact h1 {
+  font-size: 4rem;
+}
+
+.container__links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  width: 100%;
+}
+
+.container__links a {
+  margin: 8px;
+  border-radius: 2rem;
+  width: 300px;
+  padding: 3rem;
+}
+
+.container__links a i {
+  text-decoration: none;
+  font-size: 4rem;
+}
+
+.contacto__text {
+  text-align: justify;
+  width: 90%;
+  font-size: 2.4rem;
+}
+
+.insta {
+  color: #e4405f;
+}
+
+.insta:hover {
+  color: white;
+  background-color: #e4405f;
+  border-radius: 100px;
+  padding: 20px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.twitter {
+  color: #53a7f7;
+}
+
+.twitter:hover {
+  color: white;
+  background-color: #53a7f7;
+  border-radius: 100px;
+  padding: 20px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.face {
+  color: #1072f3;
+}
+
+.face:hover {
+  color: white;
+  background-color: #1072f3;
+  border-radius: 100px;
+  padding: 20px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+@media only screen and (max-width: 650px) {
+  .container__contact {
+    margin-top: 80px;
+  }
+  .container__contact h1 {
+    font-size: 2rem;
+  }
+  .container__links a i {
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  .contacto__text {
+    margin-top: 40px;
+    font-size: 1.5rem;
+  }
+}
+/*# sourceMappingURL=contact.css.map */

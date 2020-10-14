@@ -1,0 +1,63 @@
+.section1 {
+    margin: 3rem auto 0 auto;
+    font-size: 1.7rem;
+    max-width: 90%;
+    position: relative;
+    top: 70px;
+    height: auto;
+  }
+  
+  .section1 a {
+    text-decoration: none;
+    color: red;
+  }
+  
+  .list {
+    width: 100%;
+  }
+  
+  .imgList {
+    margin-top: 3rem;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .imgList1 {
+    height: auto;
+    max-width: 100%;
+  }
+  
+  .imgFechaContainer{
+    width: 100%;
+    text-align: center;
+  }
+  
+  .imgFecha {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .red {
+    color: red;
+    font-size: 1.5rem;
+  }
+  
+  /* Media queries*/
+  
+  @media only screen and (max-width: 814px) {
+  
+  
+  
+  }
+  
+  @media only screen and (max-width: 414px) {
+    main {
+      text-align: left;
+    }
+  
+    .center {
+      text-align: left;
+    }
+  
+  }
+  
